@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "kvm-unit-tests": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1645109033,
+        "narHash": "sha256-P1KW09aJ7r1qJuTp+ASiIfzAOUQW0Gj87mCGw/zRpEU=",
+        "owner": "kvm-unit-tests",
+        "repo": "kvm-unit-tests",
+        "rev": "257c962f3d1b2d0534af59de4ad18764d734903a",
+        "type": "gitlab"
+      },
+      "original": {
+        "owner": "kvm-unit-tests",
+        "ref": "master",
+        "repo": "kvm-unit-tests",
+        "type": "gitlab"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1646258393,
+        "narHash": "sha256-mKDoCi5Baqainjf0Nx6oTPhaxKQdj4P17XTdhTtXGRA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "ed02c2ba0384b2800db41333045a6fb781f12aac",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-21.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "kvm-unit-tests": "kvm-unit-tests",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
